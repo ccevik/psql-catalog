@@ -58,7 +58,7 @@ class MenuItem(Base):
         }
 
 
-engine = create_engine('postgresql://catalog:nKr-1b@localhost/catalog/')
+engine = create_engine('postgresql://catalog:catalog@localhost/catalog/')
 
 
 Base.metadata.create_all(engine)
